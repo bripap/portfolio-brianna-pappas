@@ -11,30 +11,74 @@
 </head>
 
 <body>
-    <header>
-        <h1>Brianna Pappas</h1>
+    <header class="main-header">
+        <h1 class="main-title">Brianna Pappas</h1>
         <nav>
-            <ul class="nav-bar">
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact Me</a></li>
-                <li><a href="#">Resume</a></li>
-            </ul>
-            
-        </nav>
-        
+            <a href="#about-me">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contact-me">Contact Me</a>
+            <a href="./assets/images/BRIANNA PAPPAS RESUME__2021.pdf" target="_blank">Resume</a>  
 
-    </header>    
-    <section class="tagline">
-        <p>Looking for a Developer? Look no further!</p>
+        </nav>
+    </header>   
+    
+    <section class="banner">
+        <h2>Cool subtitle here!</h2>
     </section>
 
+    <section class="content">
+        <article id="about-me"> 
+            <img src="./assets/images/bp-image.jpg" alt="Image of Brianna Pappas" id="image-bp" />
+            <h2>About Me</h2>
+            <p>
+                Hi, I'm Brianna Pappas. I am currently a UNH Coding Bootcamp student working
+                toward starting a new career! I graduated from Roger Williams University in 2012
+                with a Bachelor of Arts in Communications. The majority of my time since graduating
+                from college has been spent at Connection. I started in Order Compliance and worked
+                my way up to Associate Contracts Specialist and now Contracts Specialist. While 
+                working at Connection, I started taking Masters classes at Southern New Hampshire University
+                working towards my MBA, but soon realized that it wasn't what I was interested in.
+            </p>
+            <br>
+            <p>
+                I have always had an interest in coding. I was interested in the creative side and 
+                how Programmers always seem to be working on a new and exciting project. In just the short 
+                time I have been learning to code, it has made me a better problem solver, 
+                has taught me patience and definitely pushes me outside of my comfort zone.
+                I can't wait to learn more!
+            </p>
+        </article>
+<!---How can I get a title on the images??? HOw can this be set up in flexbox-->
+        <article id="work"> 
+            <h2>Work</h2>
+            <a href="https://bripap.github.io/css-demo-site/">
+                <img id="main-work" alt="Horiseon Marketing Webpage" src="./assets/images/screenshot-of-work1.png">
+            </a>
+             <a href="https://github.com/bripap">
+                <img alt="placeholder image" src="./assets/images/placeholder-img.jpg">
+             </a>
+             <a href="https://github.com/bripap">
+                <img alt="placeholder image" src="./assets/images/placeholder-img.jpg">
+             </a>
+             <a href="https://github.com/bripap">
+                <img alt="placeholder image" src="./assets/images/placeholder-img.jpg">
+             </a>
+             <a href="https://github.com/bripap">
+                <img alt="placeholder image" src="./assets/images/placeholder-img.jpg">
+             </a>
+        </article>
 
-    <div class="bp-img">
-        <img src="./assets/images/bri-pappas.jpg" alt="Image Brianna Pappas">
-    </div>
+        <article id="contact-me">
+            <h2> Contact Me</h2>
+            <hr />
+            <a href="tel:603-660-1054">603-660-1054</a>
+            <a href="mailto:bpappas302@gmail.com">bpappas302@gmail.com</a>
+            <a href="https://www.linkedin.com/in/brianna-pappas-66a7b920/" target="_blank">LinkedIn</a>
+            <a href="./assets/images/BRIANNA PAPPAS RESUME__2021.pdf" target="_blank">Resume</a>  
 
+        </article>
 
-
+    </section>
+    <footer></footer>
 </body>
-</html>
+
