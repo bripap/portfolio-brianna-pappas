@@ -27,7 +27,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 Repository contains quality readme with description, screenshot, link to deployed application.
 
 # SCREENSHOT OF COMPLETED PORTFOLIO:
-![Brianna Pappas portfolio](./assets/images/portfolio-screenshot)
+![Brianna Pappas portfolio](../assets/images/portfolio-screenshot)
 
 # LINK TO DEPLOYED APPLICATION:
 
