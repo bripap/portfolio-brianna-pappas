@@ -29,6 +29,7 @@ Repository contains quality readme with description, screenshot, link to deploye
 # SCREENSHOT OF COMPLETED PORTFOLIO:
 ![Brianna Pappas portfolio](assets/images/portfolio-screenshot.png)
 
-# LINK TO DEPLOYED APPLICATION: https://bripap.github.io/portfolio-brianna-pappas/
+# LINK TO DEPLOYED APPLICATION: 
+https://bripap.github.io/portfolio-brianna-pappas/
 
 
