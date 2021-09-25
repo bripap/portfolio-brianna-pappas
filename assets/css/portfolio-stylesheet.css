@@ -8,9 +8,8 @@
     color: var(--dark);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     }
-
+    
 .main-header {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -63,113 +62,133 @@ nav a:hover {
     padding: 10px;
 }
 
-.content {
-    width: 97%;
-    display: flex;
-    margin-left: 20px;
+#about-me {
+    display: flex;  
     font-size: 18px;
     font-weight: bold;
-    flex-wrap: wrap;
-}
-
-#about-me {
+    flex-direction: row;
     margin-bottom: 20px;
-    padding: 50px;
     height: auto;
     background-color: var(--shaded);
-    border-radius: 10px;
+    padding: 50px; 
+    justify-content: space-around;
 }
 
 #about-me h2 {
     margin-bottom: 20px;
     font-size: 36px;
     text-shadow: 0 0 3px var(--dark);
+    height: 50%;
+    text-decoration: underline;
 }
 
 #about-me img {
     max-height: 200px;
-    max-width: auto;
+    max-width: 250px;
     border-radius: 10px;
     box-shadow: 10px 10px 5px #ccc;
+    /* margin: 50px 5px 5px 50px; */
 }
 
-#image-bp {
-    float: left;
-    margin-right: 25px;
-    max-height: 200px;
+#about-me p {
+    max-width: 700px;
+    margin-left: 50px;
 }
-/*HELP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#about-me p span {
+    font-size: 25px;
+}
+
 #work {
-    margin-bottom: 20px;
-    padding: 50px;      
-    background-color: var(--shaded);
-    border-radius: 10px;
-    display: flex;  
-    flex-direction: row;
-    flex-wrap: wrap;
+    font-weight: bold;
     height: auto;
+    width: 100%;
+    background-color: var(--shaded);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;   
+    padding-bottom: 20px;
+}
 
+#work .featured img {
+    height: 400px;
+    width: auto;
 }
 
 #work h2 {
     margin-bottom: 20px;
     font-size: 36px;
     text-shadow: 0 0 3px var(--dark);
-    width: 25%;
-    height: auto;
-    flex-direction: column;
-    flex: 1 1 100px;
+    margin-top: 50px;
+    text-decoration: underline;
+    margin-left: -150px;
 }
 
 #work a {
     margin: auto;
-    flex: 1 0 500px;
     position: relative;
 }
 
 #work a img {
     border: 5px solid var(--bright);
-    filter: blur(2px);
+    filter: blur(3px);
     transition: 0.5s ease-in-out;
-    flex: 1 0 100px;
+
 }
 
 #work a:hover img {
     filter: blur(0px);
  }
 
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--shaded);
+    margin-bottom: 20px;
+}
 
- .project-title {
+.project-title {
      position: absolute;
      z-index: 1;
-     top: 100px;
-     left: 10px;
      background-color: var(--bright);
      padding: 5px;
+     margin: 10px 0 0 10px;
  }
 
+ .projects img {
+    border: 5px solid var(--bright);
+    filter: blur(5px);
+    transition: 0.5s ease-in-out;
+ }
+
+.projects a:hover img {
+    filter: blur(0px);
+ }
 
 #contact-me {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;    
     margin-bottom: 20px;
     padding: 50px;
-    height: auto;
     background-color: var(--shaded);
-    border-radius: 10px;
     width: 100%;
+    min-height: 200px;
 }
 
 #contact-me h2 {
-    margin-bottom: 20px;
     font-size: 36px;
     text-shadow: 0 0 3px var(--dark);
-    width: 30%;
+    margin-top: 30px;
+    text-decoration: underline;
 }
 
-#contact-me a{
+#contact-me a {
     margin: auto;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 a:hover {
@@ -190,10 +209,42 @@ footer {
         font-size: 40px;
         text-align: center;
     }
-    #contact-me {
+    
+    #about-me {
+        flex-direction: column;
+        justify-content: space-evenly
+    }
+    
+    #about-me p {
+        max-width: auto;
+        margin: 5px 0 5px 0;
+    }
+
+    #about-me h2 {
+        margin: 0 0 0 0;
+  
+    }
+    
+    #work {
+        display: flex;
         flex-direction: column;
     }
     
+    #work .featured img {
+        height: 200px;
+        width: auto;
+    }
+    
+    #contact-me {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 0 0 0;
+    } 
+
+    
+
+ 
     
 
 
