@@ -191,6 +191,34 @@ nav a:hover {
     font-weight: bolder;
 }
 
+
+/* github section*/
+
+
+#github {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding: 50px;
+    background-color: var(--shaded);
+    width: 100%;
+    min-height: 200px;
+}
+
+#github h2 {
+    font-size: 36px;
+    text-shadow: 0 0 3px var(--dark);
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+#github a {
+    margin: auto;
+    font-size: 20px;
+    font-weight: bolder;
+}
+/* end github */
+
 a:hover {
     background-color: var(--shaded);
 }
